@@ -31,6 +31,8 @@
 		985873A229269FFB004A65CF /* InstaHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985873A129269FFB004A65CF /* InstaHome.storyboard */; };
 		985873A52926A05D004A65CF /* InstaHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985873A42926A05D004A65CF /* InstaHomeViewController.swift */; };
 		985F7B2428F9C5EC00581B55 /* SignUpPhoneNoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985F7B2328F9C5EC00581B55 /* SignUpPhoneNoViewController.swift */; };
+		9863BFD129312ED200BA054F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863BFD029312ED200BA054F /* UIViewExt.swift */; };
+		9863BFD3293133CA00BA054F /* AddFriendsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863BFD2293133CA00BA054F /* AddFriendsCollectionViewCell.swift */; };
 		988F68FC28F723F0002C2C4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988F68FB28F723F0002C2C4D /* AppDelegate.swift */; };
 		988F68FE28F723F0002C2C4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988F68FD28F723F0002C2C4D /* SceneDelegate.swift */; };
 		988F690328F723F0002C2C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988F690128F723F0002C2C4D /* Main.storyboard */; };
@@ -39,6 +41,7 @@
 		988F691528F72960002C2C4D /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988F691428F72960002C2C4D /* ExploreViewController.swift */; };
 		988F691728F91895002C2C4D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988F691628F91895002C2C4D /* LoginViewController.swift */; };
 		9897BF5F28FF026800264558 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9897BF5E28FF026800264558 /* OTPViewController.swift */; };
+		98A8A3D22930979C00AC368C /* FriendsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8A3D02930979C00AC368C /* FriendsCollectionViewCell.swift */; };
 		98BC23822912D30900551022 /* TextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BC23812912D30900551022 /* TextFieldExt.swift */; };
 		98DA818E291B49C500CFFF5B /* CreateEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DA818D291B49C500CFFF5B /* CreateEmailViewController.swift */; };
 		98E217B9291575B5005F81D5 /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E217B8291575B5005F81D5 /* UIDeviceExt.swift */; };
@@ -75,6 +78,8 @@
 		985873A129269FFB004A65CF /* InstaHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InstaHome.storyboard; sourceTree = "<group>"; };
 		985873A42926A05D004A65CF /* InstaHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaHomeViewController.swift; sourceTree = "<group>"; };
 		985F7B2328F9C5EC00581B55 /* SignUpPhoneNoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPhoneNoViewController.swift; sourceTree = "<group>"; };
+		9863BFD029312ED200BA054F /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		9863BFD2293133CA00BA054F /* AddFriendsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsCollectionViewCell.swift; sourceTree = "<group>"; };
 		988F68F828F723F0002C2C4D /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		988F68FB28F723F0002C2C4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		988F68FD28F723F0002C2C4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +90,7 @@
 		988F691428F72960002C2C4D /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		988F691628F91895002C2C4D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9897BF5E28FF026800264558 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		98A8A3D02930979C00AC368C /* FriendsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewCell.swift; sourceTree = "<group>"; };
 		98BC23812912D30900551022 /* TextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExt.swift; sourceTree = "<group>"; };
 		98DA818D291B49C500CFFF5B /* CreateEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEmailViewController.swift; sourceTree = "<group>"; };
 		98E217B8291575B5005F81D5 /* UIDeviceExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExt.swift; sourceTree = "<group>"; };
@@ -128,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				985873A42926A05D004A65CF /* InstaHomeViewController.swift */,
+				98A8A3D02930979C00AC368C /* FriendsCollectionViewCell.swift */,
+				9863BFD2293133CA00BA054F /* AddFriendsCollectionViewCell.swift */,
 			);
 			path = InstaHomeControllers;
 			sourceTree = "<group>";
@@ -265,6 +273,7 @@
 				98E4C326290307D1000A413D /* ColorExt.swift */,
 				98BC23812912D30900551022 /* TextFieldExt.swift */,
 				98E217B8291575B5005F81D5 /* UIDeviceExt.swift */,
+				9863BFD029312ED200BA054F /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -421,8 +430,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9863BFD129312ED200BA054F /* UIViewExt.swift in Sources */,
+				9863BFD3293133CA00BA054F /* AddFriendsCollectionViewCell.swift in Sources */,
 				982FBB402901AC36003E4617 /* FontsMethod.swift in Sources */,
 				98E4C327290307D2000A413D /* ColorExt.swift in Sources */,
+				98A8A3D22930979C00AC368C /* FriendsCollectionViewCell.swift in Sources */,
 				98BC23822912D30900551022 /* TextFieldExt.swift in Sources */,
 				988F691528F72960002C2C4D /* ExploreViewController.swift in Sources */,
 				985F7B2428F9C5EC00581B55 /* SignUpPhoneNoViewController.swift in Sources */,
