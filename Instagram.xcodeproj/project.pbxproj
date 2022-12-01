@@ -43,6 +43,8 @@
 		9897BF5F28FF026800264558 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9897BF5E28FF026800264558 /* OTPViewController.swift */; };
 		98A8A3D22930979C00AC368C /* FriendsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8A3D02930979C00AC368C /* FriendsCollectionViewCell.swift */; };
 		98BC23822912D30900551022 /* TextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BC23812912D30900551022 /* TextFieldExt.swift */; };
+		98C51B43293671170073E601 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C51B42293671170073E601 /* FriendModel.swift */; };
+		98C51B45293677620073E601 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C51B44293677620073E601 /* Enums.swift */; };
 		98DA818E291B49C500CFFF5B /* CreateEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DA818D291B49C500CFFF5B /* CreateEmailViewController.swift */; };
 		98E217B9291575B5005F81D5 /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E217B8291575B5005F81D5 /* UIDeviceExt.swift */; };
 		98E217BC2915796A005F81D5 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E217BB2915796A005F81D5 /* Validations.swift */; };
@@ -92,6 +94,8 @@
 		9897BF5E28FF026800264558 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		98A8A3D02930979C00AC368C /* FriendsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewCell.swift; sourceTree = "<group>"; };
 		98BC23812912D30900551022 /* TextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExt.swift; sourceTree = "<group>"; };
+		98C51B42293671170073E601 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		98C51B44293677620073E601 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		98DA818D291B49C500CFFF5B /* CreateEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEmailViewController.swift; sourceTree = "<group>"; };
 		98E217B8291575B5005F81D5 /* UIDeviceExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExt.swift; sourceTree = "<group>"; };
 		98E217BB2915796A005F81D5 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				98E217BB2915796A005F81D5 /* Validations.swift */,
+				98C51B44293677620073E601 /* Enums.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				98F3277629254C7D00A135D0 /* CountryCodeModel.swift */,
+				98C51B42293671170073E601 /* FriendModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -434,7 +440,9 @@
 				9863BFD3293133CA00BA054F /* AddFriendsCollectionViewCell.swift in Sources */,
 				982FBB402901AC36003E4617 /* FontsMethod.swift in Sources */,
 				98E4C327290307D2000A413D /* ColorExt.swift in Sources */,
+				98C51B45293677620073E601 /* Enums.swift in Sources */,
 				98A8A3D22930979C00AC368C /* FriendsCollectionViewCell.swift in Sources */,
+				98C51B43293671170073E601 /* FriendModel.swift in Sources */,
 				98BC23822912D30900551022 /* TextFieldExt.swift in Sources */,
 				988F691528F72960002C2C4D /* ExploreViewController.swift in Sources */,
 				985F7B2428F9C5EC00581B55 /* SignUpPhoneNoViewController.swift in Sources */,
